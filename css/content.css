@@ -32,7 +32,8 @@
 .primary-content .content {
 	overflow: hidden;
 }
-/* Body sections */
+
+/* Body sections in Primary content*/
 .primary-content .content p,
 .primary-content .content ul,
 .primary-content .content ol,
@@ -173,4 +174,33 @@
 	padding: .4em 1.4em;
 	border: 1px solid #ddd;
 	max-width: 1080px;
+}
+
+/* Body sections in Secondary content*/
+
+.secondary-content .content p,
+.secondary-content .content ul,
+.secondary-content .content ol,
+.secondary-content .content h1,
+.secondary-content .content h2,
+.secondary-content .content h3,
+.secondary-content .content h4,
+.secondary-content .content h5,
+.secondary-content .content h6,
+.secondary-content .content blockquote,
+.secondary-content .content form,
+.secondary-content .content table,
+.secondary-content .content pre,
+.secondary-content .content code,
+.secondary-content .content dl,
+.secondary-content .content dt,
+.secondary-content .content .meta,
+.secondary-content .title
+{
+	display: block;
+	max-width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 1.4rem;
+	padding-right: 1.4rem;
 }
