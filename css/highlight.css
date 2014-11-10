@@ -1,6 +1,5 @@
 .highlight-content {
 	background: #eee;
-	padding: 1.4em;
 	overflow: hidden;
 	margin-bottom: 1.4em;
 }
@@ -11,9 +10,5 @@
 	border-bottom: 4px solid #ddd;
 	margin-bottom: 1.4em;
 	max-width: 960px;
-	margin: 0 auto .4em auto;
-}
-
-.highlight-content .block:last-child {
-	margin-bottom: 0;
+	margin: .72em auto;
 }
