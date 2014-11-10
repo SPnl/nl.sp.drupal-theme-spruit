@@ -29,7 +29,11 @@
           <?php print theme('links__system_main_menu', array('links' => $main_menu, 'attributes' => array('class' => array('primary-menu')), 'heading' => '')); ?>
         </nav>
       <?php endif; ?>
-      <div class="search-toggle"><a href="#search" class="button btn-search"><span class="text"><?php print t('Search'); ?></span></a></div>
+      <div class="search-toggle">
+        <?php if ($page['search']): ?>
+          <a href="#search" class="button btn-search"><span class="text"><?php print t('Search'); ?></span></a>
+        <?php endif; ?>
+      </div>
     </header>
 
      <?php if ($page['search']): ?>
@@ -61,7 +65,7 @@
           <?php print render($page['help']); ?>
 
           <?php if ($action_links): ?><ul class="action-links"><?php print render($action_links); ?></ul><?php endif; ?>
-    
+
         <a id="primary-content"></a>
         <?php print render($page['content']); ?>
       </div>

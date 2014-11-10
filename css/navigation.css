@@ -92,10 +92,24 @@ nav li a {
 }
 
 /* Highlight content navigation (menus) */
+
+.highlight-content .block-menu .title {
+	display: none;
+}
+
+.page .highlight-content .block-menu {
+	max-width: 100%;
+	border: none;
+	margin: 0;
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+}
+
 .highlight-content .block-menu ul {
 	max-width: 960px;
 	margin: 0 auto;
 	text-align: center;
+	padding: .1em;
 }
 
 .highlight-content .block-menu li {
