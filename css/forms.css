@@ -1,0 +1,59 @@
+/* =========================================================================
+   Basic Drupal form elements
+   ========================================================================== */
+
+.form-item {
+	padding: .4em 0;
+}
+
+.form-item label {
+	font-weight: bold;
+}
+
+.form-item input {
+	outline: none;
+	max-width: 100%;
+}
+
+.form-item .form-required {
+	color: #f60000;
+}
+
+.form-item .form-text {
+	padding: .4em;
+	background: #eee;
+	border: 1px solid #ddd;
+}
+
+.form-item .description {
+	color: #aaa;
+	font-size: .8em;
+}
+
+.form-submit {
+	font-family: HelveticaNeueLTStd-Md, Sans-serif;
+	background: #f60000;
+	margin-right: .4em;
+	padding: .4em .72em;
+	color: #fff;
+	border: 1px solid #d00;
+	box-shadow: 2px 2px 0 rgba(2,2,2,.1);
+	text-shadow: -1px -1px 3px rgba(2,2,2,.14);
+}
+
+.form-submit:hover {
+	background: #000;
+	color: #fff;
+	border: 1px solid #000;
+}
+
+/* Errors 
+-----------------------------------------------------------------------------*/
+.form-item .form-text.error {
+	background: #fee;
+	border: 2px solid #f66666;
+}
+
+/* =========================================================================
+   Webform module elements
+   ========================================================================== */

@@ -1,0 +1,16 @@
+.site-search {
+	background: #f60000;
+	padding: .72em;
+}
+
+.block-search {
+	max-width: 960px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#search-block-form .form-text {
+	background: #fff;
+	box-shadow: inset 2px 2px 0 rgba(2,2,2,.1);
+	border: 1px solid #f00;	
+}
