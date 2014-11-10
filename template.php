@@ -19,22 +19,6 @@ function spruit_css_alter(&$css) {
 }
 
 /**
- * Implements hook_menu_local_tasks_alter().
- * Adding path-classes to menu links
- */
-function spruit_menu_local_tasks_alter(&$data, $router_item, $root_path) {
-
-  $altered_output = array();
-  foreach($data['actions']['output'] as $element) {
-    $element['#link']['localized_options']['attributes']['class'][] = drupal_html_class($element['#link']['href']);
-    $element['#link']['localized_options']['attributes']['class'][] = 'action-link';
-    $altered_output[] = $element;
-  }
-
-  $data['actions']['output'] = $altered_output;
-}
-
-/**
  * Implements template_preprocess_page().
  */
 function spruit_preprocess_page(&$variables) {
@@ -63,7 +47,7 @@ function spruit_status_messages($variables) {
 
   if($display) {
     $output[]= '<section class="messages">';
-    
+
     foreach ($display as $type => $messages) {
       $output[] = "<div class=\"message $type\">";
 
