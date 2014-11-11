@@ -12,11 +12,16 @@ nav li a {
 	display: inline-block;
 }
 
+
 .site-navigation {
 	text-align: center;
 	display: table-cell;
 	vertical-align: middle;
 	padding: 0;
+}
+
+.site-navigation .title {
+	display: none;
 }
 
 .site-navigation ul {
@@ -34,7 +39,7 @@ nav li a {
 .site-navigation li a {
 	padding: .72em .4em;
 	color: #f60000;
-	font-size: 1.6em;
+	font-size: 1.4em;
 	text-decoration: none;
 }
 
