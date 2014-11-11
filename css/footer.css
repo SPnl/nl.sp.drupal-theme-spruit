@@ -53,3 +53,12 @@
   color: #fff;
   border-color: #f60000;
 }
+
+footer .copyright {
+  padding: .72em 1em;
+  margin: 1em auto;
+  border: 1px solid #aaa;
+  color: #888;
+  font-size: .8em;
+  max-width: 320px;
+}
