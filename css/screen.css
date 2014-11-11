@@ -5,13 +5,11 @@
  */
 
 @import url(../fonts/SPnet-icons.css);
-
 @import url(basic-html.css);
-@import url(structure.css);
+@import url(page.css);
 @import url(header.css);
 @import url(navigation.css);
 @import url(search.css);
-@import url(page.css);
 @import url(content.css);
 @import url(content-images.css);
 @import url(highlight.css);
