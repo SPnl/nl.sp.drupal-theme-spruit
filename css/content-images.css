@@ -3,7 +3,8 @@
 .content img {
 	max-width: 100%;
 	height: auto;
-	margin-bottom: .4em
+	margin-bottom: .4em;
+	display: block;
 }
 
 .primary-content .content .align-left {
@@ -41,6 +42,15 @@
 .primary-content .image-set img {
 	display: inline-block;
     margin: .4em;
+}
+
+.primary-content .viewport-height {
+	width: 100%;
+	margin: 0;
+}
+.primary-content .viewport-height img{
+	max-width: auto !important;
+	height: 100vh;
 }
 
 /* Images - figure positioning */
