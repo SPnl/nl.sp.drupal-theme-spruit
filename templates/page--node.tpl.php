@@ -42,7 +42,7 @@
       </div>
     <?php endif; ?>
 
-    <main>
+    
     <?php if ($page['highlight']): ?>
       <div class="highlight-content"><?php print render($page['highlight']); ?></div>
     <?php endif; ?>
@@ -63,7 +63,7 @@
           <?php if ($action_links): ?><ul class="action-links"><?php print render($action_links); ?></ul><?php endif; ?>
 
         <a id="primary-content"></a>
-        <?php print render($page['content']); ?>
+        <main class="content"><?php print render($page['content']); ?></main>
       </div>
 
       <?php if ($page['secondary']): ?>

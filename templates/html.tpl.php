@@ -8,7 +8,7 @@
 <html class="no-js" lang="nl-NL">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-  <head profile="<?php print $grddl_profile; ?>">
+  <head>
     <?php print $head; ?>
     <title><?php print $head_title; ?></title>
     <?php print $styles; ?>

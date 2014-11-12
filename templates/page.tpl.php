@@ -5,9 +5,9 @@
  * Default theme implementation to display a single Drupal page.
  */
 ?>
-  <div class="page-wrapper"><div class="page">
+  <div class="page-wrapper">
+    <div class="page">
     <header class="site-header">
-
       <div class="site-branding">
       <?php if ($logo): ?>
         <div class="site-logo">
@@ -42,7 +42,6 @@
       </div>
     <?php endif; ?>
 
-    <main>
     <?php if ($page['highlight']): ?>
       <div class="highlight-content"><?php print render($page['highlight']); ?></div>
     <?php endif; ?>
@@ -67,7 +66,7 @@
           <?php if ($action_links): ?><ul class="action-links"><?php print render($action_links); ?></ul><?php endif; ?>
 
         <a id="primary-content"></a>
-        <?php print render($page['content']); ?>
+        <div class="content"><?php print render($page['content']); ?></div>
       </div>
 
       <?php if ($page['secondary']): ?>
@@ -75,8 +74,9 @@
           <?php print render($page['secondary']); ?>
         </div>
       <?php endif; ?>
-    </main>
+
     <footer class="site-footer">
       <?php print render($page['footer']); ?>
     </footer>
-  </div></div>
+  </div>
+</div>
