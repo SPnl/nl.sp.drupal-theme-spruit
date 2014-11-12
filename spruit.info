@@ -16,6 +16,8 @@ regions[secondary] = Secondary content
 regions[footer]    = Footer content
 regions[search]    = Search
 
+plugins[panels][layouts] = layouts
+
 ; Unset these stylesheets
 settings[unset_styles][] = modules/system/system.menus.css
 settings[unset_styles][] = modules/system/system.messages.css
