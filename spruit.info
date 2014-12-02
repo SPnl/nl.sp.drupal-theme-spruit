@@ -10,6 +10,7 @@ scripts[] = js/vendor/modernizr-2.8.3.min.js
 scripts[] = js/main.js
 scripts[] = js/myfonts.js
 
+regions[navigation]= Navigation menu
 regions[highlight] = Highlighted content
 regions[content]   = Primary content
 regions[secondary] = Secondary content
