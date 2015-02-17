@@ -31,20 +31,10 @@
 	background: #eee;
 	overflow: hidden;
 	padding: 1em 0;
-	text-align: center;
 }
 
 .page .overview article {
-	display
 	max-width: 960px;
-	margin: .4em auto;
+	margin: 0 auto 1em auto;
 	background: #fff;
-}
-
-.page .overview .teaser {
-	width: 280px;
-	height: 100px;
-	display: inline-block;
-	margin: .4em;
-	box-shadow: .14em .14em .4em rgba(2,2,2,.02);
 }

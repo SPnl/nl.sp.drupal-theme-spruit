@@ -44,14 +44,16 @@
 }
 
 .site-footer .block-menu:nth-of-type(2n) a {
-  border: 1px solid #222;
+  border: none;
   color: #000;
+  padding: 0 .14em;
+  border-bottom: 2px solid #000;
 }
 
 .site-footer .block-menu:nth-of-type(2n) a:hover {
-  background: #f60000;
-  color: #fff;
+  color: #f60000;
   border-color: #f60000;
+  background: none;
 }
 
 footer .copyright {

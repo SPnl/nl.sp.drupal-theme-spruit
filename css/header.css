@@ -4,7 +4,7 @@
 	width: 100%;
 
     /* Faux top-border */
-	background: #f60000; /* Old browsers */
+	background: #fff; /* Old browsers */
 	background: -moz-linear-gradient(top, #f60000 5px, #ffffff 5px); /* FF3.6+ */
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(5px,#f60000), color-stop(5px,#ffffff)); /* Chrome,Safari4+ */
 	background: -webkit-linear-gradient(top, #f60000 5px,#ffffff 5px); /* Chrome10+,Safari5.1+ */
@@ -17,14 +17,14 @@
 .site-header .site-branding {
 	display: table-cell;
 	vertical-align: bottom;
-	padding: .72em 0;
+	padding: .72em;
 	width: 120px;
-	text-align: center;
+	text-align: left;
 	vertical-align: middle;
 }
 
 .site-branding .site-logo {
-	height: 42px;
+	height: 52px;
 	display: inline-block;
 }
 

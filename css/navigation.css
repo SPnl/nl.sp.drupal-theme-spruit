@@ -84,7 +84,7 @@ nav li a {
 	text-decoration: none !Important;
 }
 
-.primary-content .menu li:hover a {
+.primary-content .menu li:hover a:hover {
 	color: #f60000;
 }
 
@@ -94,6 +94,15 @@ nav li a {
 
 .primary-content .menu li {
 	font-weight: bold;
+}
+
+.primary-content .menu .menu {
+  margin: 0;
+  padding: .4em .72em;
+}
+
+.primary-content .menu .active {
+  color: #aaa;
 }
 
 /* Highlight content navigation (menus) */

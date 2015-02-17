@@ -1,0 +1,7 @@
+@media only screen and (max-width: 480px) {
+	.page-wrapper:after {
+	  padding-top: .4em;
+	  position: relative !important;
+	}
+}
+

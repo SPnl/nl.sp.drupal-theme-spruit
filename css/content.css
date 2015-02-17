@@ -2,6 +2,19 @@
    Content classes
    ========================================================================== */
 
+.content a {
+ text-decoration: none;
+ color: #f60000;
+}
+
+.content a:hover {
+  border-bottom: 2px solid #f60000;
+}
+
+.content h1 {
+	font-size: 2.1em;
+}
+
 .content .block,
 .content .node-teaser {
 	max-width: 960px;
@@ -11,13 +24,22 @@
 
 .content header {
     margin: 2em 0 0 0;
- }
+}
 
 .content header .title {
 	max-width: 960px;
 	margin: 0 auto;
 	padding-left: 1.4rem;
 	padding-right: 1.4rem;
+}
+
+.content table td {
+	padding: .72em;
+	text-align: left;
+}
+
+.content table thead {
+	background: #eee;
 }
 
 .block header .title {
@@ -29,6 +51,16 @@
 	color: inherit;
 }
 
+.primary-content strong {
+	font-family: "HelveticaNeueLTStd-Md", "Helvetica Neue", Helvetica, "Roboto Sans", "Segoe UI", Arial, "Lucida Grande", sans-serif;
+	font-weight: normal;
+}
+.content em {
+	font-family: "HelveticaNeueLTStd-LtIt", "Helvetica Neue", Helvetica, "Roboto Sans", "Segoe UI", Arial, "Lucida Grande", sans-serif;
+	font-style: normal;
+}
+
+.primary-content,
 .primary-content .content {
 	overflow: hidden;
 }
@@ -93,22 +125,23 @@
 
 .primary-content li {
 	padding-bottom: .4em;
+	font-size: 1.14rem;
 }
 
 .content .meta {
 	color: #aaa;
 }
 
-.primary-content .content ul li {
+.primary-content .body ul li {
 	list-style: none;
 	padding-left: 2.1em;
 }
 
-.primary-content .content ol li {
+.primary-content .body ol li {
   margin-left: 1.7em;
 }
 
-.primary-content .content ul li:before {
+.primary-content .body ul li:before {
 	font-family: 'SPnet-icons';
 	font-size: 1.2em;
 	display: inline-block;
@@ -117,11 +150,10 @@
 	font-weight: normal;
 	color: #333;
 	vertical-align: -2px;
-
-    content: "T"; // Tomato
+	content: "T"; /* Tomato */
 }
 
-.primary-content .content ul ul li {
+.primary-content .body ul ul li {
 	list-style: disc;
 	padding-left: 0;
 }

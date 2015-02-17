@@ -27,18 +27,24 @@
 
 .form-item .description {
 	color: #aaa;
-	font-size: .8em;
+	font-size: .9em;
+	padding: .4em;
+}
+
+.form-item:hover .description {
+	color: #333;
+
 }
 
 .form-submit {
-	font-family: HelveticaNeueLTStd-Md, Sans-serif;
+  	font-family: HelveticaInseratLTPro, Impact, 'Sans serif';
+  	font-weight: normal;
+	text-transform: uppercase;
 	background: #f60000;
 	margin-right: .4em;
 	padding: .4em .72em;
 	color: #fff;
 	border: 1px solid #d00;
-	box-shadow: 2px 2px 0 rgba(2,2,2,.1);
-	text-shadow: -1px -1px 3px rgba(2,2,2,.14);
 }
 
 .form-submit:hover {
@@ -54,6 +60,36 @@
 	border: 2px solid #f66666;
 }
 
+
+/* Forms in primary content 
+-----------------------------------------------------------------------------*/
+
+.primary-content form {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+.primary-content fieldset {
+	padding: 0 1.4em 1em 1.4em;
+	margin-bottom: 1em;
+}
+
+.primary-content legend {
+	padding: .4em .72em;
+        font-family: HelveticaNeueLTStd-Md, Sans-serif;
+}
+
+#user-pass {
+	text-align: center;
+}
+
+#user-pass label {
+	display: block;
+	width: 100%;
+	padding: .4em 0;
+}
+
 /* =========================================================================
    Webform module elements
    ========================================================================== */
+
