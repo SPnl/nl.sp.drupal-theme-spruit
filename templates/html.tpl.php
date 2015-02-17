@@ -5,10 +5,12 @@
  * Default theme implementation to display the basic html structure of a single Drupal page.
  */
 ?><!doctype html>
-<html class="no-js" lang="nl-NL">
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="nl-NL"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang="nl-NL"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang="nl-NL"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="nl-NL"> <!--<![endif]-->
   <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <?php print $head; ?>
     <title><?php print $head_title; ?></title>
     <?php print $styles; ?>
@@ -19,7 +21,7 @@
       <a href="#primary-content"><?php print t('Skip to content'); ?></a>
     </nav>
     <!--[if lt IE 9]>
-      <p class="browser-upgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+      <p class="browser-upgrade">Je gebruikt <strong>een hele oude</strong> browser. Op <a href="http://browsehappy.com/">browsehappy.com</a> vind je veilige en moderne browsers.</p>
     <![endif]-->
     <?php print $page_top; ?>
     <?php print $page; ?>

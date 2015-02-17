@@ -26,11 +26,7 @@
       </div>
       <?php if ($main_menu): ?>
         <nav class="site-navigation">
-          <?php if ($page['navigation']): ?>
-            <?php print render($page['navigation']); ?>
-          <?php else : ?>
-            <?php print theme('links__system_main_menu', array('links' => $main_menu, 'attributes' => array('class' => array('primary-menu')), 'heading' => '')); ?>
-          <?php endif; ?>
+          <?php print theme('links__system_main_menu', array('links' => $main_menu, 'attributes' => array('class' => array('primary-menu')), 'heading' => '')); ?>
         </nav>
       <?php endif; ?>
       <div class="search-toggle">
