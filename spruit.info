@@ -1,7 +1,7 @@
 name = SPruit
-description = A minimal, low maintenance base theme
+description = A minimal, low maintenance SP base theme
 package = Other
-version = 0.1
+version = 0.2
 core = 7.x
 stylesheets[all][] = css/normalize.css
 stylesheets[all][] = css/screen.css
