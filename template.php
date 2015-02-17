@@ -24,7 +24,7 @@ function spruit_css_alter(&$css) {
 function spruit_preprocess_page(&$variables) {
 
 /* Adding theme path to JS, for MyFonts */
-  drupal_add_js('jQuery.extend(Drupal.settings, { "pathToTheme": "' .drupal_get_path('theme', 'spruit'). '" });', 'inline');
+  drupal_add_js('jQuery.extend(Drupal.settings, { "pathToTheme": "' .base_path().drupal_get_path('theme', 'spruit'). '" });', 'inline');
 
   /**
    * Templates for content type pages
