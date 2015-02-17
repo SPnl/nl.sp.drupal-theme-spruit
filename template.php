@@ -105,3 +105,25 @@ function spruit_menu_local_tasks(&$variables){
   }
   return $output;
 }
+
+/**
+ * Implements theme_preprocess_book_navigation().
+ */
+function spruit_preprocess_book_navigation(&$variables) {
+  $variables['full_tree'] = '';
+  $book_link = $variables['book_link'];
+
+  if($book_link) {
+    $flat = menu_tree_all_data($book_link['menu_name'], $book_link);
+    $elements = menu_tree_output($flat);
+    $variables['full_tree'] = drupal_render($elements);
+  }
+}
+
+
+function spruit_form_alter(&$form, &$form_state, $form_id) {
+  if ($form_id == 'search_block_form') {
+    $form['actions']['submit']['#value'] = 'S';
+    $form['search_block_form']['#attributes']['placeholder'] = t("Search");
+ }
+}
