@@ -7,7 +7,7 @@
 ?>
   <div class="page-wrapper">
     <div class="page">
-    <header class="site-header">
+    <header class="site-header" id="site-header">
       <div class="site-branding">
       <?php if ($logo): ?>
         <div class="site-logo">
@@ -74,8 +74,8 @@
           <?php print render($page['secondary']); ?>
         </div>
       <?php endif; ?>
-
-    <footer class="site-footer">
+      <nav class="top-nav"><a href="#top"><span class="text">Top</span></a></nav>
+    <footer class="site-footer" id="site-footer">
       <?php print render($page['footer']); ?>
     </footer>
   </div>
