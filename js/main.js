@@ -15,22 +15,22 @@
   	  // Back to top button
   	  var wayHeader = new Waypoint({
         element: $('.site-header')[0],
-        offset: '-64px',
+        offset: '-52px',
         handler: function(direction) {
-          $('.top-nav a').slideToggle();
+          $('.top-nav a').slideToggle("fast");
         }
       });
 
   	  // Back to top button
   	  var wayTopNav = new Waypoint({
         element: $('.site-footer')[0],
-        offset: '97%',
+        offset: '99%',
         handler: function(direction) {
           $('.top-nav').toggleClass('bottom');
         }
       });
       $('.top-nav').click(function(event){
-      	$("html, body").animate({ scrollTop: 0 }, "slow");
+      	$("html, body").animate({ scrollTop: 0 }, 444);
       	return false;
       }); 
     }
