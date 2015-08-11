@@ -38,3 +38,9 @@
 	margin: 0 auto 1em auto;
 	background: #fff;
 }
+
+/* Default drupal pages */
+.page-user .content .profile{
+	max-width: 960px;
+	margin: 0 auto;
+}

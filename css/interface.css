@@ -5,7 +5,7 @@
 .messages .message {
 	padding: .72em 1.4em;
 	max-width: 960px;
-    margin: .4em auto;
+	margin: .4em auto;
 	text-align: center;
 	font-size: .9em;
 	text-shadow: 1px 1px 0 rgba(2,2,2,.1)
@@ -16,16 +16,15 @@
 .messages .message:before {
 	font-family: 'SPnet-Icons';
 	font-size: 1.14em;
-	text-shadow: 0 0 1px #fff;
 }
 
 .messages .status 	{ background: #5f7; }
-.messages .warning 	{ background: #ff4; }
-.messages .error 	{ background: #f44; color: #fff; }
+.messages .warning 	{ background: #ff2; }
+.messages .error 	{ background: #e22; color: #fff; }
 
 .messages .status:before  { content: '\e606'; }
 .messages .warning:before { content: '\e607'; }
-.messages .warning:before { content: '\e605'; }
+.messages .error:before   { content: '\e605';  vertical-align: -1px; text-shadow: 0 0 1px #d00; }
 
 .messages .message a { background: rgba(2,2,2,.2); padding: .17em .4em;}
 .messages .error a {color: #fff; }
@@ -71,3 +70,4 @@
 .tabs li.active {
 	display: none;
 }
+

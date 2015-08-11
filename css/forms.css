@@ -33,7 +33,12 @@
 
 .form-item:hover .description {
 	color: #333;
+}
 
+.form-item select {
+   -webkit-appearance: none;
+   -moz-appearance: none;
+   appearance: none;
 }
 
 .form-submit {
@@ -52,6 +57,9 @@
 	color: #fff;
 	border: 1px solid #000;
 }
+
+.form-type-textfield input,
+.form-type-password input { width: 100%; }
 
 /* Errors 
 -----------------------------------------------------------------------------*/
@@ -79,6 +87,8 @@
         font-family: HelveticaNeueLTStd-Md, Sans-serif;
 }
 
+/* User login */
+
 #user-pass {
 	text-align: center;
 }
@@ -89,7 +99,31 @@
 	padding: .4em 0;
 }
 
+#user-login label {
+	font-family: HelveticaNeueLTStd-BdCn, 'Sans serif';
+	font-weight: normal;
+	display: block;
+	padding: 0 0 .4em 0;
+}
+
+.login-forgot a {
+	font-family: HelveticaNeueLTStd-BdCn, 'Sans serif';
+	border: 2px solid #aaa;
+	color: #aaa;
+	display: inline-block;
+	padding: .14em .4em;
+	margin: 1em 0;
+
+}
+
+.login-forgot a:hover {
+	border-color: #222;
+	background: #000;
+	color: #fff;
+}
+
 /* =========================================================================
    Webform module elements
    ========================================================================== */
+
 

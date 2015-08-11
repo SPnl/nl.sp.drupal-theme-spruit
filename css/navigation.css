@@ -177,5 +177,28 @@ nav.top-nav a .text {
 
 nav.top-nav.bottom {
 	position: relative;
-	margin-top: -3.8em;
+}
+
+/* Default pager */
+.pager {
+   display: table;
+}
+
+.pager li {
+	display: table-cell;
+	padding: .4em;
+	font-family: HelveticaNeueLTStd-BdCn, 'Sans serif';
+	text-transform: uppercase;
+}
+
+.pager li a {
+	padding: .4em;
+	background: #000;
+	color: #fff;
+}
+
+.pager li a:hover {
+	border: none;
+	color: #000;
+	background: #fff;
 }
