@@ -13,6 +13,7 @@
 .form-item input {
 	outline: none;
 	max-width: 100%;
+	font-size: 1.14em;
 }
 
 .form-item .form-required {
@@ -20,9 +21,18 @@
 }
 
 .form-item .form-text {
-	padding: .4em;
-	background: #eee;
-	border: 1px solid #ddd;
+	padding: .4em .52em;
+	background: #f1f1f1;
+	border: none;
+	border-bottom: 2px solid #eee;
+	color: #666;
+}
+
+.form-item .form-text:focus {
+	border-bottom: 2px solid #ccc;
+	color: #000;
+	-webkit-transition: .2s; /* Safari */
+	transition: .2s;
 }
 
 .form-item .description {
@@ -33,12 +43,14 @@
 
 .form-item:hover .description {
 	color: #333;
+	-webkit-transition: .2s; /* Safari */
+	transition: .2s;
 }
 
 .form-item select {
-   -webkit-appearance: none;
-   -moz-appearance: none;
-   appearance: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
 }
 
 .form-submit {
@@ -56,10 +68,16 @@
 	background: #000;
 	color: #fff;
 	border: 1px solid #000;
+	-webkit-transition: .4s; /* Safari */
+	transition: .4s;
 }
 
 .form-type-textfield input,
 .form-type-password input { width: 100%; }
+
+.form-item input[type="password"] {
+	font-family: mono;
+}
 
 /* Errors 
 -----------------------------------------------------------------------------*/
@@ -125,5 +143,4 @@
 /* =========================================================================
    Webform module elements
    ========================================================================== */
-
 
