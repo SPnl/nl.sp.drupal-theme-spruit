@@ -12,6 +12,7 @@ nav li a {
 	display: inline-block;
 }
 
+/* Site navigation */
 
 .site-navigation {
 	text-align: center;
@@ -53,6 +54,8 @@ nav li a {
 	background: #fff;
 }
 
+/* Breadcrumbs */
+
 .breadcrumb {
 	margin: auto;
 	font-size: .9em;
@@ -80,6 +83,13 @@ nav li a {
 }
 
 /* Primary content navigation (menus) */
+
+.primary-content .menu {
+	list-style: none;
+	Font-family: HelveticaNeueLTStd-BdCn, 'Sans serif';
+
+}
+
 .primary-content .menu li a {
 	text-decoration: none !Important;
 }
@@ -92,17 +102,13 @@ nav li a {
 	color: #f60000;
 }
 
-.primary-content .menu li {
-	font-weight: bold;
-}
-
 .primary-content .menu .menu {
-  margin: 0;
-  padding: .4em .72em;
+	margin: 0;
+	padding: .4em .72em;
 }
 
 .primary-content .menu .active {
-  color: #aaa;
+	color: #a1a1a1;
 }
 
 /* Highlight content navigation (menus) */
@@ -201,4 +207,33 @@ nav.top-nav.bottom {
 	border: none;
 	color: #000;
 	background: #fff;
+}
+
+/* Navigation in content */
+
+.content .content-menu {
+	margin: 0;
+	padding: 0;
+	overflow: visible;
+}
+
+.content .content-menu li {
+	display: inline-block;
+	padding: 0;
+	margin: 0;
+	margin-right: .4em;
+	text-transform: uppercase;
+}
+
+.content .content-menu li a {
+	display: inline-block;
+	padding: .4em;
+	margin: 0;
+	border: 1px solid #f60000;
+}
+
+.content .content-menu li a:hover {
+	background: #000;
+	border-color: #000;
+	color: #fff !important;
 }

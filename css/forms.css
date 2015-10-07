@@ -134,10 +134,23 @@
 
 }
 
+.primary-content .form-item p {
+	padding: 0;
+}
+
 .login-forgot a:hover {
 	border-color: #222;
 	background: #000;
 	color: #fff;
+}
+
+.grippie {
+	display: none !important;
+}
+
+
+.node-actie-webform header {
+	display: none;
 }
 
 /* =========================================================================

@@ -44,3 +44,34 @@
 	max-width: 960px;
 	margin: 0 auto;
 }
+
+/* Forms of highlighting */
+.stand-out {
+	background: #f60000;
+	padding: 1.4em;
+	color: #fff;
+}
+
+.stand-out h2{
+	color: #fff;
+	margin: 0;
+}
+
+.stand-out .form-submit {
+	background: #000;
+}
+
+.stand-out .messages {
+	max-width: 960px;
+	margin: 1em auto 0 auto;
+	padding: 1em ;
+	background: #Fff;
+	color: #f60000;
+	text-align: center;
+}
+
+.stand-out textarea,
+.stand-out .description,
+.stand-out .description:hover {
+	color: #333;
+}
