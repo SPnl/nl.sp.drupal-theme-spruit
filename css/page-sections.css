@@ -1,0 +1,68 @@
+/* Different common section layouts */
+
+/* Overview: Element containing a set of articles */
+.page .overview {
+        background: #eee;
+        overflow: hidden;
+        padding: 1em 0;
+	text-align: center;
+}
+
+.page .overview article {
+        max-width: 960px;
+        margin: 0 auto 1em auto;
+        background: #fff;
+	width: 280px;
+	height: 440px;
+	display: inline-block;
+	overflow: hidden;
+	margin-left: .41em;
+	text-align: left;
+}
+
+.page .overview .picture-wrapper {
+	width: 280px;
+	height: 280px;
+	background: #e1e1e1;
+	overflow: hidden;      
+}
+
+.page .overview .picture-wrapper img {
+    -webkit-transition: all .4s ease-in-out; /* Safari and Chrome */
+    -moz-transition: all .4s ease-in-out; /* Firefox */
+    -o-transition: all .4s ease-in-out; /* IE 9 */
+    -ms-transition: all .4s ease-in-out; /* Opera */
+    transition: all .4s ease-in-out;
+    max-width: 100%;
+   
+      -webkit-transform-style: flat;
+   transform-style: flat;
+
+}
+
+.page .overview .picture-wrapper:hover img {
+ -webkit-transform:scale(1.1); /* Safari and Chrome */
+    -moz-transform:scale(1.1); /* Firefox */
+    -ms-transform:scale(1.1); /* IE 9 */
+    -o-transform:scale(1.1); /* Opera */
+     transform:scale(1.1);
+     
+   -webkit-transform-style: flat;
+   transform-style: flat;
+}
+
+.page .overview article .type {
+	padding: 0; margin: 0;
+	margin-top: -1.8em;
+	z-index: 3000;
+}
+.page .overview article .type a {
+	padding: .4em 1em;
+	display: inline-block;
+	background: #fff;
+	font-size: .8em;
+}
+
+.page .overview article .title {
+	padding: 0 1em;
+}

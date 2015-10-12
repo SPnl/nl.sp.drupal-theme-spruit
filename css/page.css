@@ -26,19 +26,6 @@
 	border-bottom: 1px solid #aaa;
 }
 
-/* Overview: Element containing a set of articles */
-.page .overview {
-	background: #eee;
-	overflow: hidden;
-	padding: 1em 0;
-}
-
-.page .overview article {
-	max-width: 960px;
-	margin: 0 auto 1em auto;
-	background: #fff;
-}
-
 /* Default drupal pages */
 .page-user .content .profile{
 	max-width: 960px;

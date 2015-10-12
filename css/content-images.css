@@ -65,3 +65,10 @@
 	max-width: 960px;
 	margin: 0 auto;
 }
+
+/* Full viewport */
+.primary-content .pane-content .field-full-viewport-image,
+.primary-content .pane-content .field-full-viewport-image img {
+    max-width: 100%;
+    width: 100%;
+}
