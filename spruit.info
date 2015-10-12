@@ -17,6 +17,14 @@ regions[secondary] = Secondary content
 regions[footer]    = Footer content
 regions[search]    = Search
 
+; Breakpoints 
+breakpoints[w320]  = (max-width: 320px)
+breakpoints[w480]  = (min-width: 480px)
+breakpoints[w680]  = (min-width: 680px)
+breakpoints[w960]  = (min-width: 960px)
+breakpoints[w1280] = (min-width: 1280px)
+breakpoints[w1440] = (min-width: 1440px)
+
 plugins[panels][layouts] = layouts
 
 ; Unset these stylesheets
