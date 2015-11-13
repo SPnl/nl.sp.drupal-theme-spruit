@@ -20,14 +20,13 @@
 
 .messages .status 	{ background: #5f7; }
 .messages .warning 	{ background: #ff2; }
-.messages .error 	{ background: #e22; color: #fff; }
+.messages .error 	{ background: #fff1f1; border: 2px solid #faa; }
 
 .messages .status:before  { content: '\e606'; }
 .messages .warning:before { content: '\e607'; }
-.messages .error:before   { content: '\e605';  vertical-align: -1px; text-shadow: 0 0 1px #d00; }
+.messages .error:before   { content: '\e605';  vertical-align: -1px; color: #f60000;}
 
-.messages .message a { background: rgba(2,2,2,.2); padding: .17em .4em;}
-.messages .error a {color: #fff; }
+.messages .message a { background: rgba(254,254,254,.9); padding: .17em .4em;}
  
 .browser-upgrade {
 	background : #ff5;

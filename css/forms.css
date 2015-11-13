@@ -27,10 +27,10 @@
 	border-bottom: 2px solid #eee;
 	color: #666;
 }
-
 .form-item .form-text:focus {
-	border-bottom: 2px solid #ccc;
+	border-bottom: 2px solid #aaa;
 	color: #000;
+	background: #fafafa;
 	-webkit-transition: .2s; /* Safari */
 	transition: .2s;
 }
@@ -45,12 +45,6 @@
 	color: #333;
 	-webkit-transition: .2s; /* Safari */
 	transition: .2s;
-}
-
-.form-item select {
-	-webkit-appearance: none;
-	-moz-appearance: none;
-	appearance: none;
 }
 
 .form-submit {
@@ -72,18 +66,21 @@
 	transition: .4s;
 }
 
-.form-type-textfield input,
-.form-type-password input { width: 100%; }
-
 .form-item input[type="password"] {
 	font-family: mono;
+}
+
+.form-item select {
+  background: #f1f1f1;
+  border: none;
+  padding: .4em;
 }
 
 /* Errors 
 -----------------------------------------------------------------------------*/
 .form-item .form-text.error {
-	background: #fee;
-	border: 2px solid #f66666;
+  background: #fee;
+  border-bottom: 2px solid #f66666;
 }
 
 
@@ -107,23 +104,52 @@
 
 /* User login */
 
+#user-login .description,
+#user-login .form-required {
+  display: none;
+}
+#user-login label {
+  font-family: HelveticaNeueLTStd-BdCn, 'Sans serif';
+  font-weight: normal;
+  display: block;
+  padding: 0 0 .4em 0;
+  text-align: left;
+}
+#user-login #edit-name,
+#user-login #edit-pass {
+  width: 100%;
+}
+#user-login .form-submit {
+  display: block;
+  float: right;
+  font-size: 1.14em;
+  padding: .72em 1.14em;
+  margin: 0;
+}
+
+.not-logged-in.page-user .tabs ul {
+	padding: 1em 0;
+}
+.not-logged-in.page-user .tabs li {
+	margin: 0;
+}
+.not-logged-in.page-user .tabs a {
+	text-align: center;	
+}
+.not-logged-in.page-user .site-footer {
+  display: none;
+}
+
 #user-pass {
-	text-align: center;
+  text-align: center;
 }
 
 #user-pass label {
-	display: block;
-	width: 100%;
-	padding: .4em 0;
+        display: block;
+        width: 100%;
+        padding: .4em 0;
 }
 
-#user-login label {
-	font-family: HelveticaNeueLTStd-BdCn, 'Sans serif';
-	font-weight: normal;
-	display: block;
-	padding: 0 0 .4em 0;
-	text-align: left;
-}
 .login-forgot a {
 	font-family: HelveticaNeueLTStd-BdCn, 'Sans serif';
 	border: 2px solid #aaa;

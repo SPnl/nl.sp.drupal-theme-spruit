@@ -56,3 +56,8 @@ a:link,
 a:visited {
   color: #222;
 }
+
+:focus {
+  outline-color: transparent;
+  outline-style: none;
+}
