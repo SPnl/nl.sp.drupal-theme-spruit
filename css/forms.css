@@ -128,16 +128,27 @@
 }
 
 .not-logged-in.page-user .tabs ul {
-	padding: 1em 0;
+  padding: 1em 0;
 }
 .not-logged-in.page-user .tabs li {
-	margin: 0;
+  margin: 0;
 }
 .not-logged-in.page-user .tabs a {
-	text-align: center;	
+  text-align: center;	
 }
 .not-logged-in.page-user .site-footer {
   display: none;
+}
+
+#user-login,
+.not-logged-in.page-user .tabs,
+.not-logged-in.page-user header .title {
+	width: 96%;
+	margin: 0 auto;
+	max-width: 768px;
+}
+.not-logged-in.page-user .primary-content {
+	margin: 1.4em 0;
 }
 
 #user-pass {
