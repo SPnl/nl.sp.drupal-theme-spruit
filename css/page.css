@@ -10,7 +10,7 @@
 
 /* Decorative footer-tomato, for decorative purposes */
 .page-wrapper:after {
-	font-family: SPnet-Icons;
+	font-family: SPruit-Icons;
 	content: 'T';
 	line-height: 1;
 	display: block;
