@@ -1,10 +1,10 @@
 @font-face {
 	font-family: 'SPruit-icons';
-	src:url('fonts/SPruit-icons.eot?38olph');
-	src:url('fonts/SPruit-icons.eot?38olph#iefix') format('embedded-opentype'),
-		url('fonts/SPruit-icons.ttf?38olph') format('truetype'),
-		url('fonts/SPruit-icons.woff?38olph') format('woff'),
-		url('fonts/SPruit-icons.svg?38olph#SPruit-icons') format('svg');
+	src:url('SPruit-icons.eot?38olph');
+	src:url('SPruit-icons.eot?38olph#iefix') format('embedded-opentype'),
+		url('SPruit-icons.ttf?38olph') format('truetype'),
+		url('SPruit-icons.woff?38olph') format('woff'),
+		url('SPruit-icons.svg?38olph#SPruit-icons') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
