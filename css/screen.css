@@ -9,6 +9,7 @@
 @import url(page-sections.css);
 @import url(header.css);
 @import url(navigation.css);
+@import url(navigation-icons.css);
 @import url(search.css);
 @import url(content.css);
 @import url(content-asides.css);
@@ -21,6 +22,7 @@
 
 /* Modules */
 @import url(modules/book.css);
+@import url(modules/owl.carousel.css);
 
 /* Media queries */
 @import url(media/screen-min-1080px.css);

@@ -8,6 +8,28 @@
       });
     }
   };
+  
+  Drupal.behaviors.OwlCarousel = {
+    attach: function(context,settings){
+      $(".overview .view-content").owlCarousel({
+        loop:true,
+        center:true,
+        margin:10,
+        width:280,
+        responsive:{
+          0:{
+            items:1
+          },
+          600:{
+            items:3
+          },
+          1200:{
+            items:6
+          }
+        }
+      });
+    }
+  };  
 
   Drupal.behaviors.SiteWaypoints = {
     attach: function(context,settings) {

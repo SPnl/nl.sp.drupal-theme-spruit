@@ -48,10 +48,6 @@
 
     <?php print $messages; ?>
 
-    <?php if ($breadcrumb): ?>
-      <nav class="breadcrumb"><?php print $breadcrumb; ?></nav>
-    <?php endif; ?>
-
       <div class="primary-content">
         <?php if ($title): ?>
         <header class="content-header">

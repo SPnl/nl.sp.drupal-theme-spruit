@@ -71,4 +71,6 @@
 .primary-content .pane-content .field-full-viewport-image img {
     max-width: 100%;
     width: 100%;
+    min-height: 104px;
+    background: #f1f1f1;
 }

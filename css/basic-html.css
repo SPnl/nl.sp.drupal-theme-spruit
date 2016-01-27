@@ -61,3 +61,13 @@ a:visited {
   outline-color: transparent;
   outline-style: none;
 }
+
+q:before {
+  content: '\201C'; /* ldquo */
+  padding-right: 1px;
+}
+q:after {
+  content: '\201D'; /* rdquo */
+  padding-left: 1px;
+}
+

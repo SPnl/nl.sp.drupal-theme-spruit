@@ -73,12 +73,6 @@
       <?php endif; ?>
     </main>
 
-    
-    <?php if ($breadcrumb): ?>
-      <nav class="breadcrumb"><?php print $breadcrumb; ?></nav>
-    <?php endif; ?>
-
-
     <footer class="site-footer">
       <?php print render($page['footer']); ?>
     </footer>
