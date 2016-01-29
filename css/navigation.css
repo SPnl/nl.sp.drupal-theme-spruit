@@ -237,3 +237,26 @@ nav.top-nav.bottom {
 	border-color: #000;
 	color: #fff !important;
 }
+
+/* Pager: Load more */
+
+.content .stream .pager-load-more {
+  margin: 2.4em auto 1.8em auto;
+  padding: 0;
+  width: 100%;
+  max-width: 1180px;
+}
+.content .stream .pager-load-more li{
+  margin: 0;
+  padding: 0;
+}
+.content .stream .pager-load-more a{
+  background: #f60000;
+  font-size: 1.14em;
+  margin: 0;
+  padding: .72em 1.4em;
+}
+.content .stream .pager-load-more a:hover{
+  background: #000;
+  color: #fff;
+}
