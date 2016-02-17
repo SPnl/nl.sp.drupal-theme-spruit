@@ -1,52 +1,46 @@
 .site-search {
-	background: #f60000;
-	padding: .72em;
+  background: #f60000;
+  padding: 1.14em;
 }
 
 .block-search {
-	max-width: 960px;
-	margin: 0 auto;
-	text-align: center;
+  max-width: 960px;
+  margin: 0 auto;
+  text-align: center;
 }
-
 
 #search-block-form {
-	overflow: hidden;
-	height: 36px;
+  overflow: hidden;
 }
-
 #search-block-form .form-text {
-	font-family: "HelveticaNeueLTStd-Md", "Helvetica Neue", Helvetica, "Roboto Sans", "Segoe UI", Arial, "Lucida Grande", sans-serif;
-	font-size: .96em;
-	color: #888;
-	background: #fff;
-	box-shadow: inset 2px 2px 0 rgba(2,2,2,.1);
-	border: 1px solid #f00;	
-	border-right: none;
-	min-width: 280px;
-	width: 100%;
-	max-width: 905px;
-	display: block; 
-	float: left;
-	text-align: center;
+  font-size: 1.14em;
+  color: #666;
+  background: #fff;
+  box-shadow: inset 2px 2px 0 #e1e1e1;
+  border: 1px solid #f00;	
+  border-right: none;
+  width: 78%;
+  max-width: 905px;
+  display: block; 
+  float: left;
+  text-align: center;
+  padding: .4em 0;
 }
-
 #search-block-form .form-submit {
   font-family: 'SPruit-icons';
   display: block;
   background: #fff;
   margin-top: 1px;
-  height: 30px;
+  height: 36px;
   box-shadow: none;
   text-shadow: none;
   margin-left: 0;
   border: none;
-  color: #aaa;
+  color: #888;
   float: left;
-  border-top: 2px solid #ddd;
-  font-size: .88em;
+  border-top: 2px solid #e1e1e1;
+  font-size: 1em;
 }
-
 #search-block-form .form-submit:hover {
   background: #000;
   color: #fff;

@@ -31,6 +31,7 @@
     }
   };  
 
+	/*
   Drupal.behaviors.SiteWaypoints = {
     attach: function(context,settings) {
   	  
@@ -57,5 +58,6 @@
       }); 
     }
   };
+	*/
 
 })(jQuery);
