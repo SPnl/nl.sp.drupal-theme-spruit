@@ -12,26 +12,44 @@
   Drupal.behaviors.OwlCarousel = {
     attach: function(context,settings){
       $(".overview .view-content").owlCarousel({
-        loop:true,
-        center:true,
-        margin:10,
-        width:280,
+        loop: true,
+        center: true,
+        width: 280,
+        autoHeight: false,
         responsive:{
           0:{
             items:1
           },
-          600:{
+          600:{            
+            items:2,
+            center: false
+          },
+          860:{
             items:3
           },
-          1200:{
-            items:6
+          1120: {
+            items:4
+          },
+          1480:{
+            items:5
+          },
+          2560: {
+            items: 8
           }
         }
       });
     }
   };  
 
-	/*
+  Drupal.behaviors.SiteHeaderMenuToggle = {
+    attach: function (context, settings) {
+      $('.menu-toggle button', context).click(function(event){
+        event.preventDefault();
+        $('.primary-menu').slideToggle(420);
+      });
+    }
+  };
+
   Drupal.behaviors.SiteWaypoints = {
     attach: function(context,settings) {
   	  
@@ -58,6 +76,5 @@
       }); 
     }
   };
-	*/
 
 })(jQuery);
