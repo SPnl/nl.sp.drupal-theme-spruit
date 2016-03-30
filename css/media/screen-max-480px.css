@@ -28,23 +28,23 @@
     display: block;
     font-weight: normal;
   }
-  .menu-toggle {
+  .site-navigation  .menu-toggle {
     display: block;
     position: absolute;
     top: 1.14em;
     right: 3.8em;
   }
-  .menu-toggle button {
+  .site-navigation  .menu-toggle button {
     display: block;
     background: none;
     border: none;
     margin: 0;
     padding: 0;
   }
-  .menu-toggle button .text {
+  .site-navigation  .menu-toggle button .text {
     display: none;
   }
-  .menu-toggle button:after {
+  .site-navigation  .menu-toggle button:after {
     font-family: 'SPruit-icons';
     content: '\e900';
     display: block;
@@ -63,4 +63,3 @@
     height: 186px;
   }
 }
-

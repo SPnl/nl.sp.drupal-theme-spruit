@@ -8,7 +8,7 @@ For licensing, see LICENSE.html or http://ckeditor.com/license
  * The 'Styles' button is not enabled by default in DrupalFull and DrupalFiltered toolbars.
  */
 if(typeof(CKEDITOR) !== 'undefined') {
-    CKEDITOR.addStylesSet( 'SPruit',
+    CKEDITOR.addStylesSet( 'drupal',
     [
             /* Block Styles */
 
@@ -21,10 +21,9 @@ if(typeof(CKEDITOR) !== 'undefined') {
             { name : 'Uitspraak'        , element : 'q' },
             { name : 'Lang citaat'      , element : 'blockquote'},
   	    { name : 'Citaat uitstaand' , element : 'blockquote', attributes : { 'class' : 'outset' } }, 
-            { name : 'Vervolg-acties'   , element : 'ul', attributes : { 'class':'actions'} }
+            { name : 'Vervolg-acties', element : 'ul', attributes : { 'class' : 'actions' }},
             
             /* Object styles */
-
             {
                     name : 'Links uitlijnen',
                     element : 'img',

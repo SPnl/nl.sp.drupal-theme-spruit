@@ -14,7 +14,7 @@
       $(".overview .view-content").owlCarousel({
         loop: true,
         center: true,
-        width: 280,
+        width: 260,
         autoHeight: false,
         responsive:{
           0:{
@@ -31,10 +31,10 @@
             items:4
           },
           1480:{
-            items:5
+            items:6
           },
           2560: {
-            items: 8
+            items:8
           }
         }
       });
