@@ -3,78 +3,51 @@
    ========================================================================== */
 
 .form-item {
-	padding: .4em 0;
+  padding: .4em 0;
 }
-
 .form-item label {
-	font-weight: bold;
+  font-weight: normal;
+  font-family: HelveticaNeueLTStd-BdCn, 'Sans serif';
+  padding-right: .4em;
 }
-
 .form-item input {
-	outline: none;
-	max-width: 100%;
-	font-size: 1.14em;
+  outline: none;
+  max-width: 100%;
 }
-
 .form-item .form-required {
-	color: #f60000;
+  color: #f60000;
 }
-
-.form-item .form-text {	
-	color: #666;
-	background: #f1f1f1;
-	border: none;
-	border-bottom: 2px solid #eee;
-	padding: .4em .52em;
-	box-sizing: border-box;	
+.form-item .form-text {
+  padding: .4em .6em;
+  background: #eee;
+  color: #333;
+  border: none;
+  border-bottom: 2px solid #d1d1d1;
+  font-family: HelveticaNeueLTStd-Md, Sans-serif;
 }
-.form-item .form-text:focus {
-	border-bottom: 2px solid #aaa;
-	color: #000;
-	background: #fafafa;
-	-webkit-transition: .2s; /* Safari */
-	transition: .2s;
-}
-
 .form-item .description {
-	color: #aaa;
-	font-size: .9em;
-	padding: .4em;
+  color: #aaa;
+  font-size: .9em;
+  padding: .4em;
 }
-
 .form-item:hover .description {
-	color: #333;
-	-webkit-transition: .2s; /* Safari */
-	transition: .2s;
+  color: #333;
 }
 
 .form-submit {
-  	font-family: HelveticaInseratLTPro, Impact, 'Sans serif';
-  	font-weight: normal;
-	text-transform: uppercase;
-	background: #f60000;
-	margin-right: .4em;
-	padding: .4em .72em;
-	color: #fff;
-	border: 1px solid #d00;
+  font-family: HelveticaInseratLTPro, Impact, 'Sans serif';
+  font-weight: normal;
+  text-transform: uppercase;
+  background: #f60000;
+  margin-right: .4em;
+  padding: .4em .72em;
+  color: #fff;
+  border: 1px solid #d00;
 }
-
 .form-submit:hover {
-	background: #000;
-	color: #fff;
-	border: 1px solid #000;
-	-webkit-transition: .4s; /* Safari */
-	transition: .4s;
-}
-
-.form-item input[type="password"] {
-	font-family: mono;
-}
-
-.form-item select {
-  background: #f1f1f1;
-  border: none;
-  padding: .4em;
+  background: #000;
+  color: #fff;
+  border: 1px solid #000;
 }
 
 /* Errors 
