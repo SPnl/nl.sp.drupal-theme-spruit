@@ -59,5 +59,8 @@
     height: 32px;
     width: 37px;
   }
+  .content .vimeo-video iframe {
+    height: 186px;
+  }
 }
 

@@ -206,7 +206,12 @@
   max-width: 1080px;
 }
 
-/* Body sections in Secondary content*/
+
+.content .vimeo-video {
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
 /* Body sections in Secondary content*/
 
 .secondary-content .content p,

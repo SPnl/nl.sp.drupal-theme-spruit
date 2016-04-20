@@ -23,6 +23,9 @@
 /* Modules */
 @import url(modules/book.css);
 @import url(modules/owl.carousel.css);
+
 /* Media queries */
-@import url(media/screen-min-1080px.css);
 @import url(media/screen-max-480px.css);
+@import url(media/screen-min-768px.css);
+@import url(media/screen-min-1080px.css);
+
