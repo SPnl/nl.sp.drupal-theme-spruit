@@ -2,13 +2,20 @@
    Basic Drupal form elements
    ========================================================================== */
 
-.form-item {
-  padding: .4em 0;
+.form-item,
+.form-actions {
+  padding: .4em 1.4em;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+.form-item:first-of-type {
+  padding-top: 0; 
 }
 .form-item label {
+  display: block;
+  padding: 0 .4em 0 0;
   font-weight: normal;
   font-family: HelveticaNeueLTStd-BdCn, 'Sans serif';
-  padding-right: .4em;
 }
 .form-item input {
   outline: none;
@@ -17,13 +24,19 @@
 .form-item .form-required {
   color: #f60000;
 }
-.form-item .form-text {
-  padding: .4em .6em;
+.form-item .form-text,
+.form-item .form-textarea {
+  width: 100%;
+  padding: .72em;
   background: #eee;
   color: #333;
   border: none;
   border-bottom: 2px solid #d1d1d1;
   font-family: HelveticaNeueLTStd-Md, Sans-serif;
+}
+.form-item .form-text:focus {
+  background: #fff;
+  border-color: #f60000;
 }
 .form-item .description {
   color: #aaa;
@@ -32,6 +45,14 @@
 }
 .form-item:hover .description {
   color: #333;
+}
+.form-item input[type="password"] {
+  font-family: mono;
+}
+.form-item select {
+  background: #f1f1f1;
+  border: none;
+  padding: .4em;
 }
 
 .form-submit {
@@ -48,6 +69,51 @@
   background: #000;
   color: #fff;
   border: 1px solid #000;
+}
+
+/* Form item checkbox */
+.form-checkboxes {
+  padding: .72em .4em;
+}
+.form-type-checkbox {
+  padding: .4em 0;
+}
+.form-type-checkbox:last-of-type {
+	padding-bottom: 0;
+}
+.form-type-checkbox label {
+  display: block;
+}
+.form-type-checkbox input[type="checkbox"] {
+  display:none;
+}
+.form-type-checkbox input[type="checkbox"] + label:before {
+  display:inline-block;
+  font-family: 'SPruit-icons'; 
+  content: 'v';
+  color: #fff;
+  background: #fff;
+  padding: .14em .32em;
+  margin-right: .72em;
+  border: 2px solid #333;  
+  border-radius: .14em;
+  font-size: .92em;
+}
+.form-type-checkbox input:checked + label {
+  color: #f60000;
+}
+.form-type-checkbox input:checked + label:before {
+  content: 'v';
+  color: #f00;
+  background: #fff;
+  border-color: #f00;
+}
+
+.no-touch .form-type-checkbox:hover input + label:before {
+  color: #333;
+}
+.no-touch .form-type-checkbox:hover input:checked + label:before {
+  color: #f60000;
 }
 
 /* Errors 
@@ -99,6 +165,7 @@
   font-size: 1.14em;
   padding: .72em 1.14em;
   margin: 0;
+  margin-top: 1.4em;
 }
 
 .not-logged-in.page-user .tabs ul {
@@ -167,3 +234,33 @@
    Webform module elements
    ========================================================================== */
 
+/* =========================================================================
+   Webform module elements
+   ========================================================================== */
+
+.content .contact-form form{
+  width: 100%;
+  max-width: 610px;
+  margin: 0 auto ;
+  padding: 0 0 1.4em 0;
+}
+.contact-form .form-actions .form-submit {
+  margin: 0 auto !important;
+  display: block;
+  width: 72%;
+  padding: 1em 0;
+}
+.contact-form .webform-component--disclaimer {
+  padding: 0;
+
+}
+.contact-form .webform-component--disclaimer p{
+  font-size: .72em;
+  color: #888;
+  text-align: center;	
+}
+
+.contact-form .webform-component--disclaimer a {
+  color: inherit;
+  border-bottom: 1px solid #aaa;
+}

@@ -1,6 +1,13 @@
 @media only screen and (min-width: 768px) {
+  .site-header .site-branding .site-logo {
+    height: 48px;
+  }
   .content .vimeo-video iframe {
     height: 440px;
+  }
+  .content .contact-form form{
+    font-size: 1.1em;
+    max-width: 640px;
   }
 }
 
