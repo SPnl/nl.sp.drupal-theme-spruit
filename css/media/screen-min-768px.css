@@ -9,5 +9,13 @@
     font-size: 1.1em;
     max-width: 640px;
   }
+  .site-header .search-toggle {
+    text-align: right;
+   }
+  .site-header .search-toggle a {
+    color: #f60000;
+    text-decoration: none;
+    font-size: 2.1em;
+    margin-right: .4em;
+  }
 }
-

@@ -5,36 +5,47 @@
       $('.search-toggle a', context).click(function(event){
       	event.preventDefault();
       	$('.site-search').slideToggle(320);
+        $('body').toggleClass('site-search-on');
       });
     }
   };
   
+  function fitItems(target,screen,width) {
+     space = Math.floor(screen / width);
+     items = $(target).length;
+     if(items > space) {
+        items = space;
+     } 
+     return items;
+  }
+  
   Drupal.behaviors.OwlCarousel = {
     attach: function(context,settings){
+    
       $(".overview .view-content").owlCarousel({
         loop: true,
         center: true,
         width: 260,
         autoHeight: false,
+	dotsEach: true,
         responsive:{
           0:{
             items:1
           },
           600:{            
-            items:2,
-            center: false
+            items:fitItems(".overview article",600,280)
           },
           860:{
-            items:3
+            items:fitItems(".overview article",860,280)
           },
           1120: {
-            items:4
+            items: fitItems(".overview article",1120,280)
           },
           1480:{
-            items:6
+            items: fitItems(".overview article",1480,280)
           },
           2560: {
-            items:8
+            items: fitItems(".overview article",2560,280)
           }
         }
       });
