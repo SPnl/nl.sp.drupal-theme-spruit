@@ -55,10 +55,12 @@
 .social li.phone a .text{
   font-family: HelveticaNeueLTStd-BdCn, 'Sans serif';
   display: inline-block;
-  vertical-align: 3px;
-  padding-right: .4em;
+  padding-right: .6em;
+  padding-top: .114em;
 }
 .social li.phone a:before {
-  content: "\e5fb";
-  padding: .14em .4em 0 .4em;
+  content: "0";
+  padding: .4em .72em;
+  font-size: .87em;
+  vertical-align: -2px;
 }

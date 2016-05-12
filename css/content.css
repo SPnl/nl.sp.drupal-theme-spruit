@@ -12,7 +12,7 @@
 }
 
 .content h1 {
-  font-size: 2.1em;
+  font-size: 2em;
 }
 
 .content header {
@@ -22,12 +22,12 @@
 .content header .title {
   max-width: 960px;
   margin: 0 auto;
-  padding-left: 1.4rem;
-  padding-right: 1.4rem;
+  padding-left: 1.4142rem;
+  padding-right: 1.4142rem;
 }
 
 .content table td {
-  padding: .72em;
+  padding: .71em;
   text-align: left;
 }
 .content table thead {
@@ -105,16 +105,18 @@
 }
 
 .primary-content header .title {
-  font-size: 2.6em;
+  font-size: 2.83em;
   margin: 0 auto;
-  padding: .4em;
+  padding: .35em;
   max-width: 960px;
 }
 
 .primary-content .content p {
-  font-size: 1.14em;
-  line-height: 1.4;
-  letter-spacing: .3px;
+  font-size: 1.13em;
+  line-height: 1.4142;
+  letter-spacing: .03em;
+  margin-top: 0;
+  margin-bottom: .5em;
 }
 
 .content .meta {
@@ -161,7 +163,7 @@
 .primary-content .content ol ul,
 .primary-content .content ol ol
 {
-  padding-top: .72em;
+  padding-top: .71em;
   padding-left: 3.1em;
 }
 
@@ -177,7 +179,7 @@
   padding: .1em 0;
   text-align: center;
   font-family: HelveticaNeueLTStd-BdCn, 'Sans serif';
-  font-size: 1.4em;
+  font-size: 1.4142em;
   max-width: 100%;
 }
 
