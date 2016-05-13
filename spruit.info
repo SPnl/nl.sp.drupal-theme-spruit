@@ -6,7 +6,7 @@ core = 7.x
 
 ; SPruit core styhlesheets
 stylesheets[all][]    = css/normalize.css
-stylesheets[screen][] = css/fonts/SPruit-icons.css
+stylesheets[screen][] = fonts/SPruit-icons.css
 stylesheets[screen][] = css/basic-html.css
 stylesheets[screen][] = css/page.css
 stylesheets[screen][] = css/page-sections.css
