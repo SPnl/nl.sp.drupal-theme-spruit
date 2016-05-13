@@ -1,7 +1,7 @@
 name = SPruit
-description = A minimal, low maintenance SP base theme
+description = A low maintenance SP base theme
 package = Other
-version = 0.3
+version = 0.4
 core = 7.x
 
 ; SPruit core styhlesheets
