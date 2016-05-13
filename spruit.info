@@ -3,15 +3,43 @@ description = A minimal, low maintenance SP base theme
 package = Other
 version = 0.3
 core = 7.x
-stylesheets[all][] = css/normalize.css
-stylesheets[all][] = css/screen.css
 
+; SPruit core styhlesheets
+stylesheets[all][]    = css/normalize.css
+stylesheets[screen][] = css/fonts/SPruit-icons.css
+stylesheets[screen][] = css/basic-html.css
+stylesheets[screen][] = css/page.css
+stylesheets[screen][] = css/page-sections.css
+stylesheets[screen][] = css/header.css
+stylesheets[screen][] = css/navigation.css
+stylesheets[screen][] = css/navigation-icons.css
+stylesheets[screen][] = css/search.css
+stylesheets[screen][] = css/content.css
+stylesheets[screen][] = css/content-asides.css
+stylesheets[screen][] = css/content-images.css
+stylesheets[screen][] = css/highlight.css
+stylesheets[screen][] = css/interface.css
+stylesheets[screen][] = css/forms.css
+stylesheets[screen][] = css/footer.css
+stylesheets[screen][] = css/helper-classes.css
+
+; Tweaks of modules
+stylesheets[screen][] = css/modules/book.css
+stylesheets[screen][] = css/modules/owl.carousel.css
+
+; Centralized media queries
+stylesheets[screen][] = css/media/screen-max-480px.css
+stylesheets[screen][] = css/media/screen-min-768px.css
+stylesheets[screen][] = css/media/screen-min-1080px.css
+
+; JavaScript
 scripts[] = js/vendor/modernizr-2.8.3.min.js
 scripts[] = js/vendor/noframework.waypoints.min.js
 scripts[] = js/vendor/owl.carousel.min.js
 scripts[] = js/main.js
 scripts[] = js/myfonts.js
 
+; Regions
 regions[highlight] = Highlighted content
 regions[content]   = Primary content
 regions[secondary] = Secondary content
@@ -26,9 +54,10 @@ breakpoints[w960]  = (min-width: 960px)
 breakpoints[w1280] = (min-width: 1280px)
 breakpoints[w1440] = (min-width: 1440px)
 
+; Panels support
 plugins[panels][layouts] = layouts
 
-; Unset these stylesheets
+; Unset these css
 settings[unset_styles][] = modules/system/system.menus.css
 settings[unset_styles][] = modules/system/system.messages.css
 settings[unset_styles][] = modules/system/system.theme.css
