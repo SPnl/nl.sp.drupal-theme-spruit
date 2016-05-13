@@ -56,6 +56,15 @@ a,
 a:link, 
 a:visited {
   color: #222;
+  -webkit-transition: color 0.13s ease;
+  -moz-transition: color 0.13s ease;
+  -ms-transition: color 0.13s ease;
+  -o-transition: color 0.13s ease;
+  transition: color 0.13s ease;
+  -webkit-transition-property: color, border-color, background-color;
+  -moz-transition-property: color, border-color, background-color;
+  -o-transition-property: color, border-color, background-color;
+  transition-property: color, border-color, background-color;
 }
 
 :focus {

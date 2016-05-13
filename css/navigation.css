@@ -118,59 +118,57 @@ nav ul li a {
 }
 
 .highlight-content .block-menu ul {
-	max-width: 960px;
-	margin: 0 auto;
-	text-align: center;
-	padding: .1em;
+  max-width: 960px;
+  margin: 0 auto;
+  text-align: center;
+  padding: .1em;
 }
 
 .highlight-content .block-menu li {
-	display: inline-block;
-	font-family: HelveticaNeueLTStd-BdCn, 'Sans serif';
-	text-transform: uppercase;
+  display: inline-block;
+  font-family: HelveticaNeueLTStd-BdCn, 'Sans serif';
+  text-transform: uppercase;
 }
 
 .highlight-content .block-menu li a {
-	display: inline-block;
-	padding: .4em;
-	border: 1px solid #ddd;
-	color: #888;
-	text-decoration: none;
+  display: inline-block;
+  padding: .4em;
+  border: 1px solid #ddd;
+  color: #888;
+  text-decoration: none;
 }
 
 
 /* Return to top navigation */
 nav.top-nav {
-	position: fixed;
-	bottom: 0;
-	width: 100%;
-	height: auto;
-	overflow: hidden;
-	padding: 1em 0 1em 0;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  height: auto;
+  overflow: hidden;
+  padding: 1em;
+  z-index: 1;
 }
-
 nav.top-nav a {
-	display: none;
-	height: 2.4em;
-	width: 3.6em;
-	background: #F00;
-	color: #fff;
-	float: right;
-	margin-right: .72em;
-	text-decoration: none;
-	text-align: center;
+  display: none;
+  width: 4em;
+  background: #F00;
+  color: #fff;
+  float: right;
+  text-decoration: none;
+  text-align: center;
+  box-shadow: 2px 2px 1.4em rgba(2,2,2,.14);
 }
 nav.top-nav a:hover {
-	background: #000;
+  background: #000;
 }
-
 nav.top-nav a:before {
-	content: "^";
-	font-family: 'SPruit-icons';
-	font-size: 1.8em;
+  content: "^";
+  font-family: 'SPruit-icons';
+  font-size: 1.8em;
 }
 nav.top-nav a .text {
-	display: none;
+  display: none;
 }
 
 /* Default pager */
@@ -196,36 +194,36 @@ nav.top-nav a .text {
   background: #fff;
 }
 .pager .pager-ellipsis {
-	color: #aaa;
+  color: #aaa;
 }
 
 /* Navigation in content */
 
 .content .content-menu {
-	margin: 0;
-	padding: 0;
-	overflow: visible;
+  margin: 0;
+  padding: 0;
+  overflow: visible;
 }
 
 .content .content-menu li {
-	display: inline-block;
-	padding: 0;
-	margin: 0;
-	margin-right: .4em;
-	text-transform: uppercase;
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+  margin-right: .4em;
+  text-transform: uppercase;
 }
 
 .content .content-menu li a {
-	display: inline-block;
-	padding: .4em;
-	margin: 0;
-	border: 1px solid #f60000;
+  display: inline-block;
+  padding: .4em;
+  margin: 0;
+  border: 1px solid #f60000;
 }
 
 .content .content-menu li a:hover {
-	background: #000;
-	border-color: #000;
-	color: #fff !important;
+  background: #000;
+  border-color: #000;
+  color: #fff !important;
 }
 
 /* Pager: Load more */
