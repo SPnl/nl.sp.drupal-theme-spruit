@@ -173,10 +173,6 @@ nav.top-nav a .text {
 	display: none;
 }
 
-nav.top-nav.bottom {
-	position: relative;
-}
-
 /* Default pager */
 .pager {
   display: table;
