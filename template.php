@@ -15,7 +15,7 @@ function spruit_css_alter(&$css) {
   }
 
  // Do not load CSS as @import rules
- foreach ($css as $key => $value) { $css[$key]['preprocess'] = FALSE; }
+ foreach ($css as $key => $value) { $css[$key]['preprocess'] = TRUE; }
 }
 
 /**
