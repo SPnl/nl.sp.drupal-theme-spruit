@@ -1,6 +1,7 @@
 .site-search {
   background: #f60000;
   padding: 1.14em;
+  display: none;
 }
 
 .block-search {
