@@ -126,7 +126,6 @@
 
 /* Forms in primary content 
 -----------------------------------------------------------------------------*/
-
 .primary-content form {
 	max-width: 960px;
 	margin: 0 auto;
@@ -139,7 +138,7 @@
 
 .primary-content legend {
 	padding: .4em .72em;
-        font-family: HelveticaNeueLTStd-Md, Sans-serif;
+  font-family: HelveticaNeueLTStd-Md, Sans-serif;
 }
 
 /* User login */
@@ -197,9 +196,9 @@
 }
 
 #user-pass label {
-        display: block;
-        width: 100%;
-        padding: .4em 0;
+  display: block;
+  width: 100%;
+  padding: .4em 0;
 }
 
 .login-forgot a {
@@ -225,7 +224,6 @@
 	display: none !important;
 }
 
-
 .node-actie-webform header {
 	display: none;
 }
@@ -233,11 +231,7 @@
 /* =========================================================================
    Webform module elements
    ========================================================================== */
-
-/* =========================================================================
-   Webform module elements
-   ========================================================================== */
-
+   
 .content .contact-form form{
   width: 100%;
   max-width: 610px;
@@ -252,14 +246,12 @@
 }
 .contact-form .webform-component--disclaimer {
   padding: 0;
-
 }
 .contact-form .webform-component--disclaimer p{
   font-size: .72em;
   color: #888;
   text-align: center;	
 }
-
 .contact-form .webform-component--disclaimer a {
   color: inherit;
   border-bottom: 1px solid #aaa;
