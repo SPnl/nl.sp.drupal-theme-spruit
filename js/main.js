@@ -63,7 +63,6 @@
 
   Drupal.behaviors.SiteWaypoints = {
     attach: function(context,settings) {
-  	  
       // Back to top button
       var wpSiteHeaderOffscreen = $('.site-header',context).waypoint({
         offset: '-52px',
@@ -75,7 +74,7 @@
       $('.top-nav',context).click(function(event){
       	$("html, body").animate({ scrollTop: 0 }, 444);
       	return false;
-      }); 
+      });
     }
   };
 

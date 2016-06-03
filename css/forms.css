@@ -127,17 +127,17 @@
 /* Forms in primary content 
 -----------------------------------------------------------------------------*/
 .primary-content form {
-	max-width: 960px;
-	margin: 0 auto;
+  max-width: 960px;
+  margin: 0 auto;
 }
 
 .primary-content fieldset {
-	padding: 0 1.4em 1em 1.4em;
-	margin-bottom: 1em;
+  padding: 0 1.4em 1em 1.4em;
+  margin-bottom: 1em;
 }
 
 .primary-content legend {
-	padding: .4em .72em;
+  padding: .4em .72em;
   font-family: HelveticaNeueLTStd-Md, Sans-serif;
 }
 
@@ -202,16 +202,16 @@
 }
 
 .login-forgot a {
-	font-family: HelveticaNeueLTStd-BdCn, 'Sans serif';
-	border: 2px solid #aaa;
-	color: #aaa;
-	display: inline-block;
-	padding: .14em .4em;
-	margin: 1em 0;
+  font-family: HelveticaNeueLTStd-BdCn, 'Sans serif';
+  border: 2px solid #aaa;
+  color: #aaa;
+  display: inline-block;
+  padding: .14em .4em;
+  margin: 1em 0;
 }
 
 .primary-content .form-item p {
-	padding: 0;
+  padding: 0;
 }
 
 .login-forgot a:hover {
@@ -231,7 +231,7 @@
 /* =========================================================================
    Webform module elements
    ========================================================================== */
-   
+
 .content .contact-form form{
   width: 100%;
   max-width: 610px;
@@ -252,7 +252,9 @@
   color: #888;
   text-align: center;	
 }
-.contact-form .webform-component--disclaimer a {
+.contact-form .webform-component--disclaimer a,
+.contact-form .webform-component--disclaimer a:link,
+.contact-form .webform-component--disclaimer a:visited {
   color: inherit;
   border-bottom: 1px solid #aaa;
 }

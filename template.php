@@ -13,9 +13,6 @@ function spruit_css_alter(&$css) {
   foreach($stylesheets as $path) {
     unset($css[$path]);
   }
-
- // Do not load CSS as @import rules
- foreach ($css as $key => $value) { $css[$key]['preprocess'] = TRUE; }
 }
 
 /**
