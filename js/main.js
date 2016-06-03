@@ -65,22 +65,13 @@
     attach: function(context,settings) {
   	  
       // Back to top button
-  	var wayHeader = new Waypoint({
-          element: $('.site-header', context)[0],
-          offset: '-52px',
-          handler: function(direction) {
-            $('.top-nav a').slideToggle("fast");
-          }
-        });
-
-  	// Back to top button
-  	var wayTopNav = new Waypoint({
-        element: $('.site-footer', context)[0],
-        offset: '99%',
+      var wpSiteHeaderOffscreen = $('.site-header',context).waypoint({
+        offset: '-52px',
         handler: function(direction) {
-          $('.top-nav').toggleClass('bottom');
+          $('.top-nav a').slideToggle("fast");
         }
       });
+
       $('.top-nav',context).click(function(event){
       	$("html, body").animate({ scrollTop: 0 }, 444);
       	return false;
