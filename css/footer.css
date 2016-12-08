@@ -5,12 +5,8 @@
 
 .site-footer .block-menu {
   overflow: hidden;
-  background: #f60000;
 }
 
-.site-footer .block-menu a {
-  color: #fff; 
-}
 .site-footer .block-menu .title {
   display: none;
 }
@@ -27,35 +23,17 @@
 .site-footer .block-menu li a:link,
 .site-footer .block-menu li a:visited {
   display: inline-block; 
-  padding: .25em .5em;
-  font-size: .83em;
-  text-decoration: none;
-  border: 1px solid #fff;
-  text-transform: uppercase;
+  padding: 0;
+  font-size: .84em;
+  border: none;
+  border-bottom: 1px solid #333;
+  color: #333;
   font-family: HelveticaNeueLTStd-BdCn, 'Sans serif';
 }
-
 .site-footer .block-menu li a:hover {
-  background: #000;
-  border-color: #000;
+  border-color: #fff;
+  color: #444;
 } 
-
-.site-footer .block-menu:nth-of-type(2n) {
-  background: none;
-}
-
-.site-footer .block-menu:nth-of-type(2n) a {
-  border: none;
-  color: #000;
-  padding: 0 .14em;
-  border-bottom: 2px solid #000;
-}
-
-.site-footer .block-menu:nth-of-type(2n) a:hover {
-  color: #f60000;
-  border-color: #f60000;
-  background: none;
-}
 
 footer .copyright {
   padding: .72em 1em;
